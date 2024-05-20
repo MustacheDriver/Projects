@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicketFly</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Шапка сайта -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img class="logo" src="img/Logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Profile.html" class="nav-link">Профиль</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="O nas.html" class="nav-link">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://t.me/Mustache_driver" class="nav-link">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Registration.html" class="nav-link">Авторизация</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Шапка сайта -->
+
+<!--Поисковик-->
+<div class="container-fluid bg-image">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h2 class="tickets">Найти билеты</h2>
+        <form class="search-form">
+          <div class="form-group">
+            <label for="from">Откуда:</label>
+            <input type="text" class="form-control" id="from" placeholder="Введите город отправления">
+          </div>
+          <div class="form-group">
+            <label for="to">Куда:</label>
+            <input type="text" class="form-control" id="to" placeholder="Введите город прибытия">
+          </div>
+          <div class="form-group">
+            <label for="date">Дата полета:</label>
+            <input type="date" class="form-control" id="date">
+          </div>
+          <div class="form-group">
+            <label for="passengers">Количество пассажиров:</label>
+            <input type="number" class="form-control" id="passengers" min="1" max="10" value="1">
+          </div>
+          <button typesubmit class="btn btn-primary">Найти билеты</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!--Поисковик-->
+
+<!-- Слайдер с предложениями -->
+<div class="container-fluid">
+    <div class="row text-center alert">
+        <div class="col-12">
+            <h1 class="display-4">Куда стоит поехать отдохнуть</h1>
+        </div>
+    </div>
+    <div class="carousel slide" data-ride="carousel" id="slides">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+            <li data-target="#slides" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Машук.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Гора Машук</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Рыбная деревня.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Рыбная деревня</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Каскад.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Каскад</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Мыс Тобизина.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Мыс Тобизина</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Слайдер с предложениями -->
+
+<!-- Модальное окно -->
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <p class="lead">Предлагаем вам посетить достопримечательности России!</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+            <a href="#"><button class="btn btn-success" data-toggle="modal" data-target="#myModal">Подробнее</button></a>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Куда стоит поехать отдохнуть</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            <div class="modal-body">
+                <div class="image-container">
+                    <figure>
+                        <a href="#"><img class="Modalnoe" src="img/Каскад.jpg"></a>
+                        <a href="#"><figcaption>Каскад</figcaption></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img class="Modalnoe" src="img/Машук.jpg"></a>
+                        <a href="#"><figcaption>Гора Машук</figcaption></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img class="Modalnoe" src="img/Мыс Тобизина.jpg"></a>
+                        <a href="#"><figcaption>Мыс Тобизина</figcaption></a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img class="Modalnoe" src="img/Рыбная деревня.jpg"></a>
+                        <a href="#"><figcaption>Рыбная деревня</figcaption></a>
+                    </figure>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Модальное окно -->
+
+<!-- Контент -->
+<div class="container-fluid">
+    <div class="row text-center alert">
+        <div class="col-12">
+            <h1 class="display-4">Почему именно мы</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+            <ul class="lead">
+                <li>Удобный интерфейс. На нашем сайте всё просто и понятно.</li>
+                <li>Широкий выбор рейсов. На нашем сайте вы сможете найти билет куда угодно.</li>
+                <li>Отличные цены. На нашем сайте самые приятные цены.</li>
+                <li>Безопастно и надёжно. На нашем сайте вы можете не бояться, что вас обманут или вы потеряете свои деньги.</li>
+                <li>Качественная поддержка. На нашем сайте поддержка работает 24/7 и всегда готова помочь вам.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Контент -->
+
+<!-- footer -->
+<footer class="bg-blue text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>TicketFly</h5>
+                <p>344000, Ростов-на-Дону, Каракумская, 21</p>
+                <p>Email: TicketFly@gmail.com</p>
+            </div>
+            <div class="col-md-2">
+                <h6><a href="#" class="text-white text-decoration-none">О нас</a></h6>
+            </div>
+            <div class="col-md-2">
+                <h6><a href="#" class="text-white text-decoration-none">Политика конфиденциальности</a></h6>
+            </div>
+            <div class="col-md-2">
+                <h6><a href="#" class="text-white text-decoration-none">Отзывы</a></h6>
+            </div>
+            <div class="col-md-2">
+                <h6><a href="#" class="text-white text-decoration-none">Поддержка</a></h6>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- footer -->
+
+</body>
+</html>

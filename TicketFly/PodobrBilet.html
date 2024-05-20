@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<link rel="stylesheet" href="css/regstyle.css">
+    <title>Найденные билеты</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img class="logo" src="img/Logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="main.html" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Profile.html" class="nav-link">Профиль</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="O nas.html" class="nav-link">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://t.me/Mustache_driver" class="nav-link">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Registration.html" class="nav-link">Авторизация</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+        <div class="container flex-grow-1 min-vh-80">
+            <h1 class="text-center my-4">Результаты поиска авиабилетов</h1>
+            <table class="table table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Номер</th>
+                        <th scope="col">Авиакомпания</th>
+                        <th scope="col">Рейс</th>
+                        <th scope="col">Дата и время вылета</th>
+                        <th scope="col">Дата и время прибытия</th>
+                        <th scope="col">Цена</th>
+                        <th scope="col">Перейти к покупке</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- результаты поиска -->
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Флайкорт</td>
+                        <td>Москва - Лондон</td>
+                        <td>15.07.2023 8:00</td>
+                        <td>15.07.2023 12:00</td>
+                        <td>15000 рублей</td>
+                        <td><button typesubmit class="btn btn-primary">Подробнее</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Флайкорт</td>
+                        <td>Москва - Лондон</td>
+                        <td>15.07.2023 16:00</td>
+                        <td>15.07.2023 20:00</td>
+                        <td>17000 рублей</td>
+                        <td><button typesubmit class="btn btn-primary">Подробнее</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Флайкорт</td>
+                        <td>Москва - Лондон</td>
+                        <td>15.07.2023 23:00</td>
+                        <td>16.07.2023 3:00</td>
+                        <td>14000 рублей</td>
+                        <td><button typesubmit class="btn btn-primary">Подробнее</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Аутлендс</td>
+                        <td>Москва - Лондон</td>
+                        <td>15.07.2023 10:00</td>
+                        <td>15.07.2023 14:00</td>
+                        <td>20000 рублей</td>
+                        <td><button typesubmit class="btn btn-primary">Подробнее</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Аутлендс</td>
+                        <td>Москва - Лондон</td>
+                        <td>15.07.2023 3:00</td>
+                        <td>15.07.2023 7:00</td>
+                        <td>12000 рублей</td>
+                        <td><button typesubmit class="btn btn-primary">Подробнее</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Лейнделл</td>
+                        <td>Москва - Лондон</td>
+                        <td>15.07.2023 21:00</td>
+                        <td>16.07.2023 1:00</td>
+                        <td>11000 рублей</td>
+                        <td><button typesubmit class="btn btn-primary">Подробнее</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Хроник</td>
+                        <td>Москва - Лондон</td>
+                        <td>15.07.2023 13:00</td>
+                        <td>15.07.2023 17:00</td>
+                        <td>9000 рублей</td>
+                        <td><button typesubmit class="btn btn-primary">Подробнее</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+</div>
+
+<!-- footer -->
+    <footer class="bg-blue text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>TicketFly</h5>
+                    <p>344000, Ростов-на-Дону, Каракумская, 21</p>
+                    <p>Email: TicketFly@gmail.com</p>
+                </div>
+                <div class="col-md-2">
+                    <h6><a href="#" class="text-white text-decoration-none">О нас</a></h6>
+                </div>
+                <div class="col-md-2">
+                    <h6><a href="#" class="text-white text-decoration-none">Политика конфиденциальности</a></h6>
+                </div>
+                <div class="col-md-2">
+                    <h6><a href="#" class="text-white text-decoration-none">Отзывы</a></h6>
+                </div>
+                <div class="col-md-2">
+                    <h6><a href="#" class="text-white text-decoration-none">Поддержка</a></h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- footer -->
+
+</body>
+</html>

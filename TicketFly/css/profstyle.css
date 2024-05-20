@@ -1,0 +1,53 @@
+.navbar-brand img {
+    width: 100px;
+  }
+  
+  .navbar-nav li {
+    padding-right: 20px;
+  }
+  
+  .nav-link {
+    font-size: 1.1em !important;
+  }
+  
+  /* Голубой фон для кнопок */
+  .btn-info {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  /* Белый текст для кнопок */
+  .btn-info {
+    color: #ffffff;
+  }
+  
+  
+  /* Голубой фон для footer */
+  .bg-blue {
+    background-color: #007bff;
+  }
+  
+  /* Белый текст для footer */
+  .text-white {
+    color: #ffffff;
+  }
+  
+  /* Отступы для заголовков в footer */
+  footer h6 {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Минимальная высота для body */
+  .min-vh-100 {
+    min-height: 100vh;
+  }
+  
+  /* Flexbox для body */
+  .d-flex {
+    display: flex;
+  }
+  
+  /* Flexbox для основного контента */
+  .flex-grow-1 {
+    flex-grow: 1;
+  }

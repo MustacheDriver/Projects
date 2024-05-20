@@ -1,0 +1,94 @@
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+/* Страница регистрация */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.);
+}
+
+.card-header {
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    background-color: #0062cc;
+    border-color: #005cbf;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+/* Страница регистрации */
+
+
+/* footer */
+
+/* Голубой фон для footer */
+.bg-blue {
+    background-color: #007bff;
+  }
+  
+  /* Белый текст для footer */
+  .text-white {
+    color: #ffffff;
+  }
+  
+  /* Отступы для заголовков в footer */
+  footer h6 {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* footer */
+
+  /* Минимальная высота для body */
+.min-vh-100 {
+    min-height: 100vh;
+  }
+  
+  /* Flexbox для body */
+  .d-flex {
+    display: flex;
+  }
+  
+  /* Flexbox для основного контента */
+  .flex-grow-1 {
+    flex-grow: 1;
+  }

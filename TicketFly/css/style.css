@@ -1,0 +1,111 @@
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 1110px) {
+    .carousel-inner img {
+        width: 100%;
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    text-shadow: 1px 1px 10px #000;
+}
+
+
+
+/*Модальная страница */
+.Modalnoe {
+    width: 150px;
+    height: 150px;
+}
+
+.image-container {
+    width: 100%;
+  }
+  
+  figure {
+    width: 50%;
+    float: left;
+  }
+  
+  figcaption {
+    text-align: center;
+}
+/*Модальная страница */
+
+.logo {
+    height: 80px;
+    width: 50px;
+}
+
+/* форма поиска билетов */
+
+.bg-image {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+.search-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.tickets {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+/* форма поиска билетов */
+
+/* footer */
+
+/* Голубой фон для footer */
+
+.bg-blue {
+  background-color: #007bff;
+}
+
+/* Белый текст для footer */
+
+.text-white {
+  color: #ffffff;
+}
+
+/* Отступы для заголовков в footer */
+
+footer h6 {
+  margin-bottom: 0.5rem;
+}
+
+/* footer */
